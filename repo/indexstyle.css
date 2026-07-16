@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+}
+
+#usernameInput{
+    width: 70px;
+}
+
+#usernameSubmit{
+    background-color: rgb(221, 221, 255);
+}
+
+#usernameSubmit:hover{
+    background-color: rgb(147, 147, 253);
+}
+
+#usernameSubmit:active{
+    background-color: rgb(48, 48, 116);
+}
