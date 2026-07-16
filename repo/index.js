@@ -16,5 +16,5 @@ document.getElementById("usernameSubmit").onclick = function() {
     }else{
         p1.textContent = `hello ${username}!`;
     }
-    
+    window.username = username;  
 };
