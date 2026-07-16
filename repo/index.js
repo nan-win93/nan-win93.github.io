@@ -12,7 +12,7 @@ document.getElementById("usernameSubmit").onclick = function() {
     }else if(username === "gigachad"){
         p1.textContent = `no you're not?`;
     }else if(username === "nan" || username === "nan-win93"){
-        p1.textContent = `nope`;
+        p1.textContent = `nope - nan`;
     }else{
         p1.textContent = `hello ${username}!`;
     }
