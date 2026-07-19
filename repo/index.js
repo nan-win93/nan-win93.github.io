@@ -1,12 +1,12 @@
 // Username settings for repo index.html
-window.username;
+let username;
 let maxChar;
 
 const p1 = document.getElementById("p1");
 const main = document.getElementsByClassName("main");
 
 document.getElementById("usernameSubmit").onclick = function() {
-    window.username = document.getElementById("usernameInput").value;
+    username = document.getElementById("usernameInput").value;
     //EASTER EGGS
     if(username === "me"){
         p1.textContent = `Hello yourself!`;
@@ -47,11 +47,14 @@ document.getElementById("usernameSubmit").onclick = function() {
         //username print
             p1.textContent = `hello ${username}!`;
             a1.textContent = `Proceed`;
+        
+        //remember username in other site
+        localStorage.setItem("username", username);
         }
     }
     
 }
 
 
-    };
+};
 
