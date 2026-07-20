@@ -40,6 +40,7 @@ document.getElementById("usernameSubmit").onclick = function() {
         p1.textContent = `Your username exceeded the maximum length`;
         a1.textContent = ``;
     }else{
+        //check if username has spaces
         if(username.includes(" ")){
             p1.textContent = `username can't have spaces`;
             a1.textContent = ``;

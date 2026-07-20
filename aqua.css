@@ -1,7 +1,10 @@
-p {background-color:#202020;Width:100px}
+body{
+    background-color: rgb(29, 28, 28);
+}
 
 #links-header{
-    background-color:rgb(214, 231, 255);
+    color: white;
+    background-color:rgb(29, 28, 28);
     border-radius: 10px;
     font-size: 40px;
     font-family:'sans-serif, Arial';
@@ -11,14 +14,15 @@ p {background-color:#202020;Width:100px}
 #links-hrule{
     margin-left: 80px;
     margin-right: 80px;
+    color: white;
 }
 
 .links{
-    color:rgb(124, 126, 255);
+    color: white;
     margin-top: 10px;
     font-size: 20px;
 }
 .links:hover{
-    color:rgb(7, 90, 83);
+    color:rgb(200, 250, 246);
 }
 
