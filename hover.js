@@ -1,9 +1,12 @@
 //github link hover
 const github = document.getElementById("githubHover");
 
-github.mouseenter = function(){
-    github.src = link-images/hover/cydiarepo_hover.png
-}
+github.onmouseenter = function(){
+    github.src = "link-images/hover/githublink_hover.png";
+};
+github.onmouseenter = function(){
+    github.src = "link-images/normal/githublinktest.png";
+};
 
 
 

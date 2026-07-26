@@ -18,13 +18,19 @@ body{
 }
 
 .links{
-    color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
     margin-top: 10px;
     font-size: 20px;
     text-decoration: none;
 }
 
-.links:hover{
+.writtenlinks{
+    color: white;
+}
+
+.writtenlinks:hover{
     color:rgb(200, 250, 246);
 }
 
