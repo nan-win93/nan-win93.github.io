@@ -4,7 +4,7 @@ const github = document.getElementById("githubHover");
 github.onmouseenter = function(){
     github.src = "link-images/hover/githublink_hover.png";
 };
-github.onmouseenter = function(){
+github.onmouseleave = function(){
     github.src = "link-images/normal/githublinktest.png";
 };
 
